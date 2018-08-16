@@ -1,0 +1,19 @@
+{
+	"name": "botlistgg-worker",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "nodejs tools build",
+		"deploy": "nodejs tools deploy",
+		"upload": "nodejs tools upload"
+	},
+	"author": "cakedan",
+	"license": "MIT",
+	"dependencies": {
+		"detritus-rest": "^0.1.0",
+		"mithril": "^1.1.6",
+		"mithril-node-render": "^2.3.0",
+		"webpack": "^4.16.5"
+	}
+}
